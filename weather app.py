@@ -7,3 +7,12 @@ r=requests.get(url)
 
 wdic=json.loads(r.text)
 print(wdic["current"]["temp_c"])
+
+
+
+s=input("enter command")
+
+
+print(s)
+text.say(s)
+text.runAndWait()
